@@ -1,0 +1,13 @@
+name = "Overflow Enchantments"
+filename = "OverflowEnchantments-1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a5d753bfbb4f71dad2680ae02aaff3177911e81f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8312489
+project-id = 1584792

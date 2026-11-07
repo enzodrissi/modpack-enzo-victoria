@@ -1,0 +1,13 @@
+name = "Productive Bees Genesis"
+filename = "productivebeesgenesis-1.2.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2ccd646014935418aec4a5cc9ea1dedd1197cbbe"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9432490
+project-id = 1655067

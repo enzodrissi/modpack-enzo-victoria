@@ -1,0 +1,118 @@
+﻿categorie;mod;version_cible;statut;cote;validation;notes
+Mekanism;Mekanism;10.7.19.85;socle;client+serveur;version candidate;Version candidate ATM10 8.5
+Mekanism;Mekanism Generators;10.7.19.85;socle;client+serveur;version candidate;
+Mekanism;Mekanism Tools;10.7.19.85;socle;client+serveur;version candidate;
+Mekanism;Mekanism Additions;10.7.19.85;socle;client+serveur;version candidate;
+Mekanism;Mekanism: Engineering;1.2.1;socle;client+serveur;version candidate;Vérifier matrice de compatibilité et configs de pompage
+Mekanism;Evolved Mekanism;1.3.0-fix2;socle;client+serveur;version candidate;Vérifier avec Evolved Extras/Mekanism Extras
+Mekanism;Mekanism Extras;1.4.2;socle;client+serveur;version candidate;Vérifier nouveaux tiers/recettes
+Mekanism;Evolved Mekanism Extras;1.2.2;socle;client+serveur;version candidate;Potentielle incompatibilité avec Evolved 1.3.0-fix2
+Mekanism;Mekanism: More Thermal Evaporation;3.2.2;socle;client+serveur;version candidate;En particulier tours 9x9, tiers et recette brine/lithium
+Mekanism;Mekanism: MoreMachine;1.4.2;socle;client+serveur;version candidate;
+Mekanism;Mekanism Covers;1.3-BETA;socle;client+serveur;version candidate;Option si instabilité
+AE2;Applied Energistics 2;19.2.18;socle;client+serveur;version candidate;
+AE2;AdvancedAE;1.6.12;socle;client+serveur;version candidate;
+AE2;ExtendedAE;2.2.43;socle;client+serveur;version candidate;
+AE2;Expanded AE;2.1.4;socle;client+serveur;version candidate;
+AE2;MEGA Cells;4.11.0;socle;client+serveur;version candidate;
+AE2;Applied Mekanistics;1.6.3;socle;client+serveur;version candidate;
+AE2;AE2 Wireless Terminals / AE2WTLib;19.5.1;socle;client+serveur;version candidate;
+AE2;AdvancedAE Addon;21.1.0;socle;client+serveur;version candidate;Vérifier liaison Quantum Crafter
+AE2;AEInfinityBooster;2.1.0;socle;client+serveur;version candidate;
+AE2;AE2 JEI Integration;1.2.1;socle;client+serveur;version candidate;
+AE2;AE2 Crafting Tree;1.1.1;socle;client+serveur;version candidate;
+AE2;AE2 Network Analyzer;2.1.5;socle;client+serveur;version candidate;
+Énergie et logistique;Powah;6.2.10;socle;client+serveur;version candidate;
+Énergie et logistique;Pipez;1.2.31;socle;client+serveur;version candidate;
+Énergie et logistique;Sophisticated Storage;1.6.15;socle;client+serveur;version candidate;
+Énergie et logistique;Sophisticated Backpacks;3.26.19;socle;client+serveur;version candidate;
+Énergie et logistique;Just Dire Things;1.5.7;socle;client+serveur;version candidate;Time Wand à tester avec machines Evolved
+Énergie et logistique;JDT Time Accelerators;2.2.0;socle;client+serveur;version candidate;Tests TPS/duplication avec AE2
+Abeilles, ATM et minerais;Productive Bees;13.14.0;socle;client+serveur;version candidate;
+Abeilles, ATM et minerais;ModularBees;3.4;socle;client+serveur;version candidate;Apiaries et multiblocs
+Abeilles, ATM et minerais;Productive Bees Genesis;1.2.3;socle;client+serveur;version candidate;Compatibilité annoncée Productive Bees 13.14.0 et Mekanism 10.7.19.85
+Abeilles, ATM et minerais;The Bumblezone;7.17.3;socle;client+serveur;version candidate;
+Abeilles, ATM et minerais;Allthemodium;3.2.1;socle;client+serveur;version candidate;Allthemodium, Vibranium, Unobtainium, The Other, Mining Dimension
+Abeilles, ATM et minerais;AllTheOres;3.2.0;socle;client+serveur;version candidate;
+Abeilles, ATM et minerais;Iron Furnaces;4.3.2;socle;client+serveur;version candidate;"Tier Allthemodium, Vibranium, Unobtainium; Rainbow Furnace"
+Abeilles, ATM et minerais;Potions Master;21.1.113-1.0.1;socle;client+serveur;version candidate;OreSight ATM via recettes/configs
+Abeilles, ATM et minerais;KubeJS;2101.7.2-build.381;socle;client+serveur;version candidate;Recettes/loot/worldgen, à adapter plutôt que copier intégralement
+Animaux et cuisine;Naturalist;2.0.3;socle;client+serveur;version candidate;
+Animaux et cuisine;Critters and Companions;2.7.0;socle;client+serveur;version candidate;
+Animaux et cuisine;Friends & Foes;5.0.4;socle;client+serveur;version candidate;
+Animaux et cuisine;Mob Catcher;1;socle;client+serveur;version candidate;Version affichée imprécise: trouver numéro exact du fichier
+Animaux et cuisine;Farmer's Delight;1.3.4;socle;client+serveur;version candidate;
+Animaux et cuisine;Aquaculture 2;2.7.22;socle;client+serveur;version candidate;
+Animaux et cuisine;Pam's HarvestCraft 2 - Crops;1.0.9;socle;client+serveur;version candidate;
+Animaux et cuisine;Pam's HarvestCraft 2 - Trees;1.0.9;socle;client+serveur;version candidate;
+Animaux et cuisine;Pam's HarvestCraft 2 - Food Core;1.0.4;socle;client+serveur;version candidate;
+Animaux et cuisine;Pam's HarvestCraft 2 - Food Extended;1.0.0;socle;client+serveur;version candidate;
+Animaux et cuisine;[Let's Do] Bakery;2.1.11;socle;client+serveur;version candidate;
+Animaux et cuisine;[Let's Do] Farm & Charm;1.1.29;socle;client+serveur;version candidate;
+Animaux et cuisine;[Let's Do] Vinery;1.5.6;socle;client+serveur;version candidate;
+Exploration;The Twilight Forest;4.8.3345;socle;client+serveur;version candidate;
+Exploration;The Aether;1.5.10;socle;client+serveur;version candidate;
+Exploration;Oh The Biomes We've Gone;2.6.3;socle;client+serveur;version candidate;
+Exploration;Regions Unexplored;0.5.9;socle;client+serveur;version candidate;Coexiste avec Oh The Biomes We've Gone? tester worldgen
+Exploration;Explorify;1.6.5;socle;client+serveur;version candidate;
+Exploration;Repurposed Structures;7.5.22;socle;client+serveur;version candidate;
+Exploration;Deeper and Darker;1.4.1;socle;client+serveur;version candidate;Option à activer ultérieurement
+Exploration;Eternal Starlight;0.9.1;socle;client+serveur;version candidate;Option à activer ultérieurement
+Construction et décoration;Chipped;4.0.2;socle;client+serveur;version candidate;
+Construction et décoration;Rechiseled;1.2.6;socle;client+serveur;version candidate;
+Construction et décoration;Rechiseled: Chipped;1.3;socle;client+serveur;version candidate;
+Construction et décoration;Handcrafted;4.0.3;socle;client+serveur;version candidate;
+Construction et décoration;Supplementaries;4.0.2;socle;client+serveur;version candidate;
+Construction et décoration;FramedBlocks;10.6.3;socle;client+serveur;version candidate;
+Construction et décoration;MrCrayfish's Furniture: Refurbished;1.0.22;socle;client+serveur;version candidate;
+Construction et décoration;Another Furniture;4.0.3;socle;client+serveur;version candidate;
+Construction et décoration;Macaw's Roofs;2.3.2;socle;client+serveur;version candidate;
+Construction et décoration;Macaw's Bridges;3.1.2;socle;client+serveur;version candidate;
+Construction et décoration;Macaw's Doors;1.1.5;socle;client+serveur;version candidate;
+Construction et décoration;Macaw's Windows;2.4.2;socle;client+serveur;version candidate;
+Construction et décoration;Macaw's Fences and Walls;1.2.1;socle;client+serveur;version candidate;
+Construction et décoration;Macaw's Furniture;3.4.1;socle;client+serveur;version candidate;
+Construction et décoration;Macaw's Lights and Lamps;1.1.5;socle;client+serveur;version candidate;
+Construction et décoration;Macaw's Paths and Pavings;1.1.1;socle;client+serveur;version candidate;
+Construction et décoration;Macaw's Stairs and Balconies;1.0.2;socle;client+serveur;version candidate;
+Construction et décoration;Macaw's Trapdoors;1.1.5;socle;client+serveur;version candidate;
+Construction et décoration;Decocraft;3.0.11;socle;client+serveur;version candidate;Option: volumineux et plus éloigné du vanilla
+QoL;Prefab;1.0.9;socle;client+serveur;version candidate;Impératif: installer loader NeoForge
+QoL;What Are They Up To (WATUT);1.2.7;socle;client+serveur;version candidate;"Client et serveur; messages de commandes masqués par défaut"
+QoL;CoroUtil;1.3.9;socle;client+serveur;version candidate;Dépendance WATUT
+QoL;FTB Essentials;2101.1.10;socle;client+serveur;version candidate;Activer /home /sethome /tpa /back
+QoL;FTB Chunks;2101.1.23;socle;client+serveur;version candidate;
+QoL;FTB Teams;2101.1.11;socle;client+serveur;version candidate;
+QoL;FTB Ultimine;2101.1.15;socle;client+serveur;version candidate;
+QoL;JourneyMap;6.0.9;socle;client+serveur;version candidate;
+QoL;Just Enough Items (JEI);19.70.0.469;socle;client+serveur;version candidate;
+QoL;Nature's Compass;3.4.0;socle;client+serveur;version candidate;
+QoL;Explorer's Compass;3.4.0;socle;client+serveur;version candidate;
+QoL;Lootr;1.11.38.127;socle;client+serveur;version candidate;
+QoL;Enchanting Infuser;21.1.4;socle;client+serveur;version candidate;Exige compatibilité spéciale si niveaux XV ne s'affichent pas
+QoL;Overflow Enchantments;1.0.3;socle;client+serveur;version candidate;Ne garantit pas seul affichage des niveaux custom dans Infuser
+QoL;Simple Backups;4.0.30;socle;client+serveur;version candidate;
+Dépendances (non exhaustif);Architectury API;13.0.11;dépendance;client+serveur;version candidate;Vérifier relation mod dépendant
+Dépendances (non exhaustif);Sophisticated Core;1.5.25;dépendance;client+serveur;version candidate;
+Dépendances (non exhaustif);FTB Library;2101.1.39;dépendance;client+serveur;version candidate;
+Dépendances (non exhaustif);Moonlight Lib;3.8.0;dépendance;client+serveur;version candidate;
+Dépendances (non exhaustif);Balm;21.0.67;dépendance;client+serveur;version candidate;
+Dépendances (non exhaustif);Curios API;9.5.1;dépendance;client+serveur;version candidate;
+Dépendances (non exhaustif);Rhino;2101.2.8-build.91;dépendance;client+serveur;version candidate;
+Performance existante / candidate ATM10;Sodium;0.8.13;performance;variable;version candidate;"Client only; ne pas installer Embeddium simultanément"
+Performance existante / candidate ATM10;ModernFix;5.27.27;performance;variable;version candidate;Mémoire, corrections et démarrage
+Performance existante / candidate ATM10;FerriteCore;7.0.3;performance;variable;version candidate;Réduction RAM
+Performance existante / candidate ATM10;spark;1.10.124;performance;variable;version candidate;Profiling TPS/MSPT/CPU
+Performance ajout vérifié NeoForge 1.21.1;ImmediatelyFast;1.6.15;performance;variable;version confirmée depuis pages officielles;"Client only; vérifier si déjà présent dans ATM10 avant ajout"
+Performance ajout vérifié NeoForge 1.21.1;Entity Culling;1.11.3;performance;variable;version confirmée depuis pages officielles;Client only
+Performance ajout vérifié NeoForge 1.21.1;More Culling;1.0.11;performance;variable;version confirmée depuis pages officielles;"Client only; correctifs Regions Unexplored"
+Performance ajout vérifié NeoForge 1.21.1;AllTheLeaks;1.1.12;performance;variable;version confirmée depuis pages officielles;"Client et serveur; vérifier patches superposés ModernFix"
+Performance ajout vérifié NeoForge 1.21.1;Clumps;19.0.0.1;performance;variable;version confirmée depuis pages officielles;"Client et serveur; regroupement XP"
+Performance ajout vérifié NeoForge 1.21.1;Lithium;0.15.4;performance;variable;version confirmée depuis pages officielles;"Client et serveur; valider avec Mekanism/BEES"
+Performance option expérimentale;BadOptimizations;2.4.1;option;variable;recherche nécessaire;"Tester après stack de base; variante NeoForge exacte à vérifier"
+Performance option expérimentale;C2ME;non figée;option;variable;recherche nécessaire;"Expérimental pour monde multibiomes/multistructures; tester isolation"
+Performance option expérimentale;Chunky;non figée;option;variable;recherche nécessaire;"Pré-générer terrain hors sessions; rechercher jar 1.21.1 NeoForge"
+Performance option expérimentale;Sodium Extra;non figée;option;variable;recherche nécessaire;"Option côté client; vérifier support Sodium exact"
+Performance option expérimentale;Iris;non figée;option;variable;recherche nécessaire;Option shaders seulement, garder profil sans shader
+Performance option expérimentale;Dynamic FPS;non figée;option;variable;recherche nécessaire;Économie CPU en arrière-plan, pas priorité
+Performance option expérimentale;ServerCore;non figée;option;variable;recherche nécessaire;À benchmark isolément
