@@ -38,9 +38,9 @@ git add -A && git commit -m "..." && git push
 
 Victoria reçoit les changements à son prochain lancement.
 
-**Mekanism: Engineering** : le pack utilise la 1.2.1 de CurseForge. Pour la 1.3 :
-- publiée sur CurseForge → `packwiz update mekanism-engineering` ;
-- jar local → copier le jar dans `mods/`, supprimer `mods/mekanism-engineering.pw.toml`, puis `packwiz refresh`.
+**Mekanism: Engineering** : le pack contient le jar 1.3 candidat (`mods/mekanismengineering-1.3.jar`, copié de l’instance ATLauncher `MekEng13Cand1211`). Pour une nouvelle version :
+- publiée sur CurseForge → supprimer le jar, puis `packwiz curseforge add https://www.curseforge.com/minecraft/mc-mods/mekanism-engineering` ;
+- nouveau jar local → remplacer le jar dans `mods/`, puis `packwiz refresh`.
 
 ## Fichiers de départ
 
