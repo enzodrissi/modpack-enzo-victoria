@@ -401,11 +401,6 @@ hash = "086e5173f9d4dd76196a67e6604b5787b5f17312a6c3db49b1651fe2d972fe16"
 metafile = true
 
 [[files]]
-file = "mods/mekanism-covers.pw.toml"
-hash = "8330f1d99526fb1952ca5bc3b524f65bf12295a7795803e4c7024d51dbe21df1"
-metafile = true
-
-[[files]]
 file = "mods/mekanism-extras.pw.toml"
 hash = "efbfbadc52ed321056cb43a7a70a521ed9657640e6132c63ed81741a4feb3f91"
 metafile = true
@@ -429,6 +424,10 @@ metafile = true
 file = "mods/mekanism.pw.toml"
 hash = "290b13afab94146d1159d821b73c8c98f5299b4df75fd28e826f9fd409e9bb40"
 metafile = true
+
+[[files]]
+file = "mods/mekanismcovers-1.3-BETA+1.21-sodium08fix.jar"
+hash = "5b5ea6d6b011f58f4ccc89c48cb6be30a978de4b4e99ab4c2fe2c573c86e5619"
 
 [[files]]
 file = "mods/mekanismengineering-1.3.jar"

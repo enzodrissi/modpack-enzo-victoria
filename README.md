@@ -100,6 +100,8 @@ Victoria reçoit les changements à son prochain lancement.
 - publiée sur CurseForge → supprimer le jar, puis `packwiz curseforge add https://www.curseforge.com/minecraft/mc-mods/mekanism-engineering` ;
 - nouveau jar local → remplacer le jar dans `mods/`, puis `packwiz refresh`.
 
+**Mekanism Covers** : `mods/mekanismcovers-1.3-BETA+1.21-sodium08fix.jar` est la 1.3-BETA (MPL-2.0, [source](https://github.com/lucaargolo/mekanism-covers)) sans son mixin Sodium (`sodium.SodiumBlockRendererMixin` retiré de `mekanismcovers.mixins.json`). Ce mixin vise Sodium 0.6 et faisait planter le jeu à l'entrée d'un monde avec Sodium 0.8 (exigé par Supplementaries et More Culling). Seul effet : la teinte des covers transparentes ne s'applique pas avec Sodium.
+
 ## Fichiers de départ
 
 - `MODPACK_MANIFEST.md` / `MODS_MANIFEST.csv` : sélection d'origine (versions candidates, exclusions). Les 7 mods au statut « option » ne sont pas dans le pack.
