@@ -271,6 +271,11 @@ hash = "4601b9be31b6e131dca8a148c974d015444bcac7c82fcb66fbd8751a67933a5d"
 metafile = true
 
 [[files]]
+file = "mods/iris.pw.toml"
+hash = "db1c1e6382878b78e994dba1b9026935f8d1c5ca685c89d2437858e0a0dcab58"
+metafile = true
+
+[[files]]
 file = "mods/iron-furnaces.pw.toml"
 hash = "cd73757a8c093f490d5c7673ad17f4404622a485234b79dc43efa0e67788d66e"
 metafile = true
@@ -647,4 +652,59 @@ metafile = true
 [[files]]
 file = "mods/yacl.pw.toml"
 hash = "539f362e9e192cf3b2813e0dfdfc51a5e6814129c6e82a9733842529beea6242"
+metafile = true
+
+[[files]]
+file = "shaderpacks/alpha-piscium.pw.toml"
+hash = "6fcfe06a92f84858c2c206b6722dd58f7aed4478b4f0b6a2e8e71d78e8f34f26"
+metafile = true
+
+[[files]]
+file = "shaderpacks/bliss-shader.pw.toml"
+hash = "8ffd81a5e0b4c3bc2daf0d86714ef56df4beb1ed87a5c41c4e9bbb94a7006bc1"
+metafile = true
+
+[[files]]
+file = "shaderpacks/bsl-shaders.pw.toml"
+hash = "31135d68099785a089f03c458fb5d1e8060a4ccec81dd3b8c36ae34ea4b9c121"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "75d1d2488a0c332a9a58af7e57f980a1b006c02b3a1c580fbd50443088e4eab0"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-unbound.pw.toml"
+hash = "1a3d3663c44dc21e227c39c42ea9b5e3c4f3b2e3b5272ed55b45da9e247a46d7"
+metafile = true
+
+[[files]]
+file = "shaderpacks/kappa-shader.pw.toml"
+hash = "a01d824c592eebca3df5b5af6aed07839eb8b544de20a2e4f276cb0622b203c9"
+metafile = true
+
+[[files]]
+file = "shaderpacks/kuda-shaders.pw.toml"
+hash = "fc293c2d5deab0f13773a89bbaff3043cbec4ec4f97511c69461245f7176c6af"
+metafile = true
+
+[[files]]
+file = "shaderpacks/makeup-ultra-fast-shaders.pw.toml"
+hash = "1d892c58b3e1eede0f0380955b0e53bd6f55d5cbcefa4a6c15eae8d7924c0e26"
+metafile = true
+
+[[files]]
+file = "shaderpacks/noble.pw.toml"
+hash = "0d573eaf5d81dafadee8c9015a7252cc8b29fd9e7834a637fb651ba287a288a3"
+metafile = true
+
+[[files]]
+file = "shaderpacks/sildurs-vibrant-shaders.pw.toml"
+hash = "3183d3df3c3dd1311e388b247527fcb9bf416ad372d8ec2f9983335afe9c4ad5"
+metafile = true
+
+[[files]]
+file = "shaderpacks/ushader.pw.toml"
+hash = "c2b49071ce77195e60c0457f1f25e388f6a96cb99f17baf091d4530855c6e19c"
 metafile = true

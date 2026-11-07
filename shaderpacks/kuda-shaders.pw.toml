@@ -1,0 +1,13 @@
+name = "KUDA Shaders"
+filename = "kuda-shaders-v6.5.26.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/55swHbGZ/versions/eGkgDd8B/kuda-shaders-v6.5.26.zip"
+hash-format = "sha512"
+hash = "db9f2799c32cbda1278f0c45dc30ed2cf07d89473558ecbf5d4873ee2e30699ad47e8fe842e52ac1133b7157ad83a4e80f60c4492c61b659a461937b8ed64476"
+
+[update]
+[update.modrinth]
+mod-id = "55swHbGZ"
+version = "eGkgDd8B"
