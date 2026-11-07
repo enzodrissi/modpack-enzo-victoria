@@ -61,7 +61,7 @@ Fichier : [`server/docker-compose.yml`](server/docker-compose.yml) (image `itzg/
    puis `wsl --shutdown` et relancer Docker Desktop.
 2. Copier le dossier `server/` sur le PC, puis dans ce dossier : `docker compose up -d`.
    Le premier démarrage télécharge NeoForge et les mods (quelques minutes).
-3. Ajouter Victoria à la liste blanche : `docker exec enzo-victoria-mc rcon-cli whitelist add <pseudo>`.
+3. Liste blanche : iDimonD et vickicoeur sont dans `WHITELIST`. Autre joueur : `docker exec enzo-victoria-mc rcon-cli whitelist add <pseudo>`.
 4. Prégénérer le monde (zéro lag de génération en jeu) :
    ```
    docker exec enzo-victoria-mc rcon-cli chunky spawn
@@ -100,7 +100,7 @@ Victoria reçoit les changements à son prochain lancement.
 - publiée sur CurseForge → supprimer le jar, puis `packwiz curseforge add https://www.curseforge.com/minecraft/mc-mods/mekanism-engineering` ;
 - nouveau jar local → remplacer le jar dans `mods/`, puis `packwiz refresh`.
 
-**Mekanism Covers** : `mods/mekanismcovers-1.3-BETA+1.21-sodium08fix.jar` est la 1.3-BETA (MPL-2.0, [source](https://github.com/lucaargolo/mekanism-covers)) sans son mixin Sodium (`sodium.SodiumBlockRendererMixin` retiré de `mekanismcovers.mixins.json`). Ce mixin vise Sodium 0.6 et faisait planter le jeu à l'entrée d'un monde avec Sodium 0.8 (exigé par Supplementaries et More Culling). Seul effet : la teinte des covers transparentes ne s'applique pas avec Sodium.
+**Mekanism Covers** : retiré du pack (abandonné, son mixin Sodium 0.6 faisait planter le jeu avec Sodium 0.8).
 
 ## Fichiers de départ
 

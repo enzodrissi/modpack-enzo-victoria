@@ -26,7 +26,7 @@ services:
       ALLOW_FLIGHT: "TRUE"           # jetpacks Mekanism, etc.
       SPAWN_PROTECTION: 0
       ENABLE_WHITELIST: "TRUE"
-      WHITELIST: iDimonD
+      WHITELIST: iDimonD,vickicoeur
       OPS: iDimonD
       # Reprend une prégénération Chunky interrompue par un redémarrage.
       RCON_CMDS_STARTUP: "chunky continue"

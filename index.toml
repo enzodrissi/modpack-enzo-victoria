@@ -426,10 +426,6 @@ hash = "290b13afab94146d1159d821b73c8c98f5299b4df75fd28e826f9fd409e9bb40"
 metafile = true
 
 [[files]]
-file = "mods/mekanismcovers-1.3-BETA+1.21-sodium08fix.jar"
-hash = "5b5ea6d6b011f58f4ccc89c48cb6be30a978de4b4e99ab4c2fe2c573c86e5619"
-
-[[files]]
 file = "mods/mekanismengineering-1.3.jar"
 hash = "4ba946831228dfc8e9c333f2560fbf99beb9ff4f5fb8e35f2e4db000a41569f5"
 
