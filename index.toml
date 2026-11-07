@@ -655,6 +655,11 @@ hash = "539f362e9e192cf3b2813e0dfdfc51a5e6814129c6e82a9733842529beea6242"
 metafile = true
 
 [[files]]
+file = "options.txt"
+hash = "3aaaf44e2679176a57921b85c53420c700c91ee9b27cc207777f07c60889b99d"
+preserve = true
+
+[[files]]
 file = "shaderpacks/alpha-piscium.pw.toml"
 hash = "6fcfe06a92f84858c2c206b6722dd58f7aed4478b4f0b6a2e8e71d78e8f34f26"
 metafile = true

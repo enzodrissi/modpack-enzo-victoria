@@ -1,0 +1,9 @@
+version:3955
+lang:fr_fr
+renderDistance:16
+simulationDistance:10
+maxFps:260
+enableVsync:false
+graphicsMode:1
+biomeBlendRadius:2
+mipmapLevels:4

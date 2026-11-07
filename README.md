@@ -14,7 +14,9 @@ Minecraft 1.21.1 · NeoForge 21.1.265 · 130 mods (dépendances comprises) · g�
 
 **Shaders** : Iris est inclus avec 11 shaders (Complementary Reimagined et Unbound, BSL, Sildur's Vibrant, MakeUp Ultra Fast, Bliss, Kappa, UShader, KUDA, Noble, Alpha Piscium), téléchargés depuis Modrinth et mis à jour comme les mods. En jeu : **Options** → **Vidéo** → **Packs de shaders** (ou la touche `O`). Les shaders sont désactivés par défaut.
 
-Mémoire réglée à 8 Go maximum (Prism → instance → **Modifier** → **Paramètres** → **Java** pour changer).
+**Réglages (PC 32 Go DDR5, RTX 4080/5080, i9 13e/14e gen)** :
+- Java : 10 Go fixes (`-Xms`/`-Xmx` 10240 Mo), ZGC générationnel (`-XX:+UseZGC -XX:+ZGenerational -XX:+AlwaysPreTouch`). Prism → instance → **Modifier** → **Paramètres** → **Java** pour changer. Le Gestionnaire des tâches affiche plus de mémoire que 10 Go avec ZGC : c'est normal.
+- Jeu (`options.txt`, appliqué seulement à la première installation, jamais écrasé ensuite) : français, distance de rendu 16, simulation 10, FPS illimités, VSync coupée, graphismes « Détaillés ». Sodium garde ses réglages par défaut, déjà adaptés à ce matériel.
 
 ## Serveur dédié
 
