@@ -101,6 +101,11 @@ hash = "24c6c3fe917ffbcef04e788dec3e003d0ed03433bc00f9cf4f23fe9b85636aa7"
 metafile = true
 
 [[files]]
+file = "mods/chunky.pw.toml"
+hash = "68cc51e721e993a8b7a2cbaf45369933b22b07a9c82327ab14757ee10684aa81"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
 metafile = true
@@ -656,7 +661,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "3aaaf44e2679176a57921b85c53420c700c91ee9b27cc207777f07c60889b99d"
+hash = "2c1240055441cdcefdb8323fde15236d266bdcaea72c18471bd598cf5915abe3"
 preserve = true
 
 [[files]]

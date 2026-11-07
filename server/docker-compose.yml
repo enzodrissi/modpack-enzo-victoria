@@ -1,0 +1,43 @@
+# Serveur dédié Enzo + Victoria (Docker Desktop, image itzg/minecraft-server).
+# Lancer : docker compose up -d   (depuis ce dossier)
+# EULA: "TRUE" = vous acceptez l'EULA Minecraft (https://aka.ms/MinecraftEULA).
+services:
+  mc:
+    image: itzg/minecraft-server:java21
+    container_name: enzo-victoria-mc
+    ports:
+      - "25565:25565"
+    environment:
+      EULA: "TRUE"
+      TYPE: NEOFORGE
+      VERSION: "1.21.1"
+      NEOFORGE_VERSION: "21.1.265"
+      # Mods synchronisés avec le pack à chaque démarrage (côté serveur seulement).
+      PACKWIZ_URL: https://raw.githubusercontent.com/enzodrissi/modpack-enzo-victoria/main/pack.toml
+      # 10 Go fixes, ZGC générationnel : pauses GC < 1 ms, pas de micro-freeze.
+      MEMORY: 10G
+      JVM_XX_OPTS: "-XX:+UseZGC -XX:+ZGenerational -XX:+AlwaysPreTouch -XX:+UseTransparentHugePages"
+      MOTD: "Enzo + Victoria"
+      DIFFICULTY: normal
+      VIEW_DISTANCE: 12
+      SIMULATION_DISTANCE: 10
+      SYNC_CHUNK_WRITES: "false"     # écritures de chunks asynchrones
+      MAX_TICK_TIME: -1              # pas de crash watchdog pendant la génération lourde
+      ALLOW_FLIGHT: "TRUE"           # jetpacks Mekanism, etc.
+      SPAWN_PROTECTION: 0
+      ENABLE_WHITELIST: "TRUE"
+      WHITELIST: iDimonD
+      OPS: iDimonD
+      # Reprend une prégénération Chunky interrompue par un redémarrage.
+      RCON_CMDS_STARTUP: "chunky continue"
+      TZ: Europe/Paris
+    volumes:
+      # Volume Docker (disque Linux de WSL) : bien plus rapide qu'un dossier Windows monté.
+      - mc-data:/data
+    restart: unless-stopped
+    stop_grace_period: 2m
+    tty: true
+    stdin_open: true
+
+volumes:
+  mc-data:
