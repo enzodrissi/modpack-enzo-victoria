@@ -1,6 +1,6 @@
 # Modpack Enzo + Victoria
 
-Minecraft 1.21.1 · NeoForge 21.1.265 · 164 mods (dépendances comprises) · géré avec [packwiz](https://packwiz.infra.link/).
+Minecraft 1.21.1 · NeoForge 21.1.265 · 169 mods (dépendances comprises) · géré avec [packwiz](https://packwiz.infra.link/).
 
 ## Installation (Victoria, une seule fois)
 
@@ -22,6 +22,7 @@ Chocapic13 et Beyond Belief ne sont pas inclus : leurs auteurs interdisent le t�
 **Réglages (PC 32 Go DDR5, RTX 4080/5080, i9 13e/14e gen)** :
 - Java : 10 Go fixes (`-Xms`/`-Xmx` 10240 Mo), ZGC générationnel (`-XX:+UseZGC -XX:+ZGenerational -XX:+AlwaysPreTouch`). Prism → instance → **Modifier** → **Paramètres** → **Java** pour changer. Le Gestionnaire des tâches affiche plus de mémoire que 10 Go avec ZGC : c'est normal.
 - Jeu : voir « Réglages anti-migraine » ci-dessous. Sodium garde ses réglages par défaut, déjà adaptés à ce matériel.
+- Optimisations côté joueur : Sodium, Sodium Extra, ImmediatelyFast, Entity Culling, More Culling, BadOptimizations, ModernFix, FerriteCore. Dynamic FPS baisse les FPS quand la fenêtre du jeu n'est pas au premier plan.
 
 ## Profils graphiques (Enzo, Victoria)
 
@@ -33,6 +34,7 @@ Deux profils prêts à l'emploi, dans le dossier `profils` de l'instance :
 | VSync | Non (FPS max) | Oui (image stable) |
 | Shader | Complementary Reimagined, ombres hautes | Complementary Reimagined sans flou de mouvement, aberration, reflets d'objectif, balancement de la main ni scintillement des torches |
 | Anti-migraine | Non | Oui (voir section suivante) |
+| Tremblements d'écran des mods (Cataclysm, Twilight Forest, Eternal Starlight) | Oui | Non |
 
 **Appliquer un profil** :
 1. Fermer le jeu.
@@ -107,7 +109,7 @@ Fichier : [`server/docker-compose.yml`](server/docker-compose.yml) (image `itzg/
 - Logs : `docker logs -f enzo-victoria-mc`. Lag : `docker exec enzo-victoria-mc rcon-cli neoforge tps` (`spark tps` ne répond pas par RCON).
 - Arrêter proprement : `docker compose stop` (le monde est sauvegardé).
 
-**Optimisations** : 10 Go fixes avec ZGC générationnel (pauses de quelques millisecondes), monde sur un volume Docker (disque Linux, bien plus rapide qu'un dossier Windows), écriture des chunks asynchrone, pas de crash watchdog, vol autorisé (jetpacks), prégénération Chunky. Lithium, ModernFix, FerriteCore et AllTheLeaks sont déjà dans le pack.
+**Optimisations** : 10 Go fixes avec ZGC générationnel (pauses de quelques millisecondes), monde sur un volume Docker (disque Linux, bien plus rapide qu'un dossier Windows), écriture des chunks asynchrone, pas de crash watchdog, vol autorisé (jetpacks), prégénération Chunky. Lithium, ModernFix, FerriteCore, AllTheLeaks et Let Me Despawn (les monstres qui ramassent un objet finissent par disparaître) sont dans le pack.
 
 **Jouer depuis l'extérieur** : tunnel sortant [playit.gg](https://playit.gg) (service `playit`, activé par `server/.env`). L'adresse publique appartient à la clé, pas au PC : le PC qui démarre prend l'adresse, rien à changer sur la box. Un seul serveur allumé à la fois. Chaque PC a son propre monde (volume `mc-data`).
 

@@ -203,6 +203,11 @@ hash = "7ac57805effb37aaee5507e2e38cb044e252e394d51d149f0fddc4693ef77da8"
 metafile = true
 
 [[files]]
+file = "mods/almanac.pw.toml"
+hash = "48dc30b2906d2a2523443d47395d4d222390297fafbc24e3d2658479e0b4b0a5"
+metafile = true
+
+[[files]]
 file = "mods/another-furniture.pw.toml"
 hash = "846290a7a2b0af86414001d097ddc694b58266f8e9f57e3d381fda3e64e81212"
 metafile = true
@@ -235,6 +240,11 @@ metafile = true
 [[files]]
 file = "mods/ato.pw.toml"
 hash = "2caa0a932f416d3a6d6dd2921840856395b56b04417292938ddb1796b72bf448"
+metafile = true
+
+[[files]]
+file = "mods/badoptimizations.pw.toml"
+hash = "dd56ff2bcc4253d1d70c08333632743fb56cdc4cf5518dc6afc024164633145d"
 metafile = true
 
 [[files]]
@@ -355,6 +365,11 @@ metafile = true
 [[files]]
 file = "mods/draconic-evolution.pw.toml"
 hash = "61dbbdcc41c7bf50540b8d1e83fdf61d9367f392690b45d3cdece8aad55370ac"
+metafile = true
+
+[[files]]
+file = "mods/dynamic-fps.pw.toml"
+hash = "ae6fd52d8bdcbeca5bbe6db840f22f92c1928fe0fda22017b19612b9b00a245a"
 metafile = true
 
 [[files]]
@@ -600,6 +615,11 @@ metafile = true
 [[files]]
 file = "mods/lithostitched.pw.toml"
 hash = "c0611d8448bc043f372a008a435e14aa238ba8fca52fd1d79634424576ea9e12"
+metafile = true
+
+[[files]]
+file = "mods/lmd.pw.toml"
+hash = "3a7ce6901bb81cff9fe73366613defe50708cb401dc03daa27e7abe918089d7b"
 metafile = true
 
 [[files]]
@@ -878,6 +898,11 @@ hash = "b3b444ca79a5786d5c7589a7119fcf4c3e4cf73c70860c17acb63c88fc06749a"
 metafile = true
 
 [[files]]
+file = "mods/sodium-extra.pw.toml"
+hash = "7ece7b8e65ac74bc1c705a3e25948ce5772c26ddf148514f29d90920ca1c3866"
+metafile = true
+
+[[files]]
 file = "mods/sodium.pw.toml"
 hash = "2a001cdb3d5ac4970d422914083c27380eba8ebd40dfd435754fe6566ba78beb"
 metafile = true
@@ -1005,12 +1030,24 @@ file = "profils/enzo/shaderpacks/ComplementaryReimagined_r5.9.3.zip.txt"
 hash = "f38cdec1cfcbddf87045e21afc402c84ad0120b6fb7ee557165d02f1e3228d2a"
 
 [[files]]
+file = "profils/victoria/config/cataclysm-client.toml"
+hash = "0846e32eb94cb4f79739755903f5fa57360753b43c315728b71dceb02c1762b0"
+
+[[files]]
+file = "profils/victoria/config/eternal_starlight.json"
+hash = "e7000f9670ace8597a59490e393677129c61124c2173c7b5fff56ca881280819"
+
+[[files]]
 file = "profils/victoria/config/iris.properties"
 hash = "1dd97d0521e24f4979c9c24ead2005e6e241ec4a528c34f7f416491514b60bfd"
 
 [[files]]
 file = "profils/victoria/config/sodium-options.json"
 hash = "4056d1df6ceaf99ce534f5f61bf978bc2f6d62381deed617cf361e180e1f1ca4"
+
+[[files]]
+file = "profils/victoria/config/twilightforest-client.toml"
+hash = "fd58f899d5e1c835cfc8326ea0947043ad93664a49b7acad490555c0c090a136"
 
 [[files]]
 file = "profils/victoria/options.txt"
