@@ -14,9 +14,11 @@ services:
       NEOFORGE_VERSION: "21.1.265"
       # Mods synchronisés avec le pack à chaque démarrage (côté serveur seulement).
       PACKWIZ_URL: https://raw.githubusercontent.com/enzodrissi/modpack-enzo-victoria/main/pack.toml
-      # 10 Go fixes, ZGC générationnel : pauses GC < 1 ms, pas de micro-freeze.
-      MEMORY: 10G
-      JVM_XX_OPTS: "-XX:+UseZGC -XX:+ZGenerational -XX:+AlwaysPreTouch -XX:+UseTransparentHugePages"
+      # 8 Go fixes, ZGC générationnel : pauses GC < 1 ms, pas de micro-freeze.
+      # Tas vivant mesuré ~2 Go à vide : 8 Go laissent de la marge à ZGC et de la RAM à Windows.
+      # Huge pages du tas activées par le service thp ci-dessous. Journal GC dans logs/gc.log.
+      MEMORY: 8G
+      JVM_XX_OPTS: "-XX:+UseZGC -XX:+ZGenerational -XX:+AlwaysPreTouch -XX:+UseTransparentHugePages -XX:+UseStringDeduplication -Xlog:gc:file=logs/gc.log:time:filecount=3,filesize=10M"
       MOTD: "Enzo + Victoria"
       DIFFICULTY: normal
       VIEW_DISTANCE: 12
@@ -34,10 +36,20 @@ services:
     volumes:
       # Volume Docker (disque Linux de WSL) : bien plus rapide qu'un dossier Windows monté.
       - mc-data:/data
+    depends_on:
+      thp:
+        condition: service_completed_successfully
     restart: unless-stopped
     stop_grace_period: 2m
     tty: true
     stdin_open: true
+
+  # ZGC ne met son tas en huge pages que si la VM Docker l'autorise pour la mémoire partagée
+  # (désactivé par défaut dans WSL). Réglage perdu au redémarrage de WSL, d'où ce service lancé avant mc.
+  thp:
+    image: alpine:3.20
+    privileged: true
+    command: sh -c "echo advise > /sys/kernel/mm/transparent_hugepage/shmem_enabled"
 
   # Tunnel sortant playit.gg : adresse publique fixe, aucune redirection de port sur la box.
   # Même clé sur chaque PC ; un seul serveur allumé à la fois.
