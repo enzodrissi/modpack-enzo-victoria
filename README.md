@@ -59,7 +59,12 @@ Fichier : [`server/docker-compose.yml`](server/docker-compose.yml) (image `itzg/
    memory=20GB
    ```
    puis `wsl --shutdown` et relancer Docker Desktop.
-2. Copier le dossier `server/` sur le PC, puis dans ce dossier : `docker compose up -d`.
+2. Cloner ce dépôt (`git clone https://github.com/enzodrissi/modpack-enzo-victoria`), puis créer `server/.env` (hors Git, ne jamais le commiter) :
+   ```
+   COMPOSE_PROFILES=tunnel
+   SECRET_KEY=<clé secrète de l'agent playit, la même sur chaque PC>
+   ```
+   puis dans `server/` : `docker compose up -d`.
    Le premier démarrage télécharge NeoForge et les mods (quelques minutes).
 3. Liste blanche : iDimonD et vickicoeur sont dans `WHITELIST`. Autre joueur : `docker exec enzo-victoria-mc rcon-cli whitelist add <pseudo>`.
 4. Prégénérer le monde (zéro lag de génération en jeu) :
@@ -71,14 +76,15 @@ Fichier : [`server/docker-compose.yml`](server/docker-compose.yml) (image `itzg/
    Suivre : `docker exec enzo-victoria-mc rcon-cli chunky progress`. Un redémarrage reprend la tâche tout seul. Pour le Nether ensuite : `chunky world minecraft:the_nether`, `chunky radius 1500`, `chunky start`.
 
 **Au quotidien** :
-- Mettre à jour les mods : `docker compose restart` (le serveur relit le pack à chaque démarrage).
+- Lancer : `docker compose up -d` dans `server/`. Le serveur relit le pack à chaque démarrage : il est toujours à jour.
+- Mettre à jour les mods sans arrêter Docker : `docker compose restart mc`.
 - Console : `docker attach enzo-victoria-mc` (sortir avec `Ctrl+P` puis `Ctrl+Q`, pas `Ctrl+C`).
-- Logs : `docker logs -f enzo-victoria-mc`. Lag : `docker exec enzo-victoria-mc rcon-cli spark tps`.
+- Logs : `docker logs -f enzo-victoria-mc`. Lag : `docker exec enzo-victoria-mc rcon-cli neoforge tps` (`spark tps` ne répond pas par RCON).
 - Arrêter proprement : `docker compose stop` (le monde est sauvegardé).
 
 **Optimisations** : 10 Go fixes avec ZGC générationnel (pauses de quelques millisecondes), monde sur un volume Docker (disque Linux, bien plus rapide qu'un dossier Windows), écriture des chunks asynchrone, pas de crash watchdog, vol autorisé (jetpacks), prégénération Chunky. Lithium, ModernFix, FerriteCore et AllTheLeaks sont déjà dans le pack.
 
-**Jouer depuis l'extérieur** : rediriger le port TCP 25565 de la box vers le PC serveur, ou utiliser un VPN comme Tailscale.
+**Jouer depuis l'extérieur** : tunnel sortant [playit.gg](https://playit.gg) (service `playit`, activé par `server/.env`). L'adresse publique appartient à la clé, pas au PC : le PC qui démarre prend l'adresse, rien à changer sur la box. Un seul serveur allumé à la fois. Chaque PC a son propre monde (volume `mc-data`).
 
 Sans Docker : `java -jar packwiz-installer-bootstrap.jar -g -s server https://raw.githubusercontent.com/enzodrissi/modpack-enzo-victoria/main/pack.toml` dans le dossier du serveur, avant chaque démarrage.
 
