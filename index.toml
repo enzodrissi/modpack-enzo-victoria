@@ -9,6 +9,14 @@ file = "config/overflowenchantments-server.toml"
 hash = "402bd320c339cb953af997a927f79990c01ef1787ca439a884e680a562651d68"
 
 [[files]]
+file = "kubejs/assets/minecraft/lang/en_us.json"
+hash = "16c446c7ab3373603f1024fffc415d1c8fab8fe00f0a8efd10078aca44b66a82"
+
+[[files]]
+file = "kubejs/assets/minecraft/lang/fr_fr.json"
+hash = "16c446c7ab3373603f1024fffc415d1c8fab8fe00f0a8efd10078aca44b66a82"
+
+[[files]]
 file = "kubejs/data/minecraft/enchantment/bane_of_arthropods.json"
 hash = "1de2516ae217193a5c6c6a4789ee7faa8cffa3fbd26fa81279bec49b22be7540"
 
