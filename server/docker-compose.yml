@@ -46,7 +46,7 @@ services:
   #   SECRET_KEY=<clé secrète de l'agent playit>
   # Sans .env, ce service est ignoré.
   playit:
-    image: ghcr.io/playit-cloud/playit-agent:0.15
+    image: ghcr.io/playit-cloud/playit-agent:1.2
     container_name: enzo-victoria-playit
     profiles: [tunnel]
     # Partage le réseau du conteneur mc : la cible du tunnel est 127.0.0.1:25565.
@@ -55,7 +55,10 @@ services:
       - path: .env
         required: false
     depends_on:
-      - mc
+      mc:
+        condition: service_started
+        # Réseau partagé : playit doit redémarrer avec mc, sinon il garde un réseau mort.
+        restart: true
     restart: unless-stopped
 
 volumes:
