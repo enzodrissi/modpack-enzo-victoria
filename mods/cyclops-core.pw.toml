@@ -3,11 +3,11 @@ filename = "cyclopscore-1.21.1-neoforge-1.30.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "e6241bbce9c59cfd46602b35a435cba1267aa13b"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/Z9DM0LJ4/versions/axSK9vET/cyclopscore-1.21.1-neoforge-1.30.1.jar"
+hash-format = "sha512"
+hash = "8ea7ac02f7b0d74461a2e509cd3b06e307f0679fdf4f90445f3094d7d6cc7f349103967d03708288a4d56f4442b8b1ce1f2d6425a326e3a1ba4061114b3917f0"
 
 [update]
-[update.curseforge]
-file-id = 9383688
-project-id = 232758
+[update.modrinth]
+mod-id = "Z9DM0LJ4"
+version = "axSK9vET"

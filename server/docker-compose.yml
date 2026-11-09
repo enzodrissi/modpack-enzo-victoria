@@ -16,9 +16,9 @@ services:
       PACKWIZ_URL: https://raw.githubusercontent.com/enzodrissi/modpack-enzo-victoria/main/pack.toml
       # 8 Go fixes, ZGC générationnel : pauses GC < 1 ms, pas de micro-freeze.
       # Tas vivant mesuré ~2 Go à vide : 8 Go laissent de la marge à ZGC et de la RAM à Windows.
-      # Huge pages du tas activées par le service thp ci-dessous. Journal GC dans logs/gc.log.
+      # Huge pages du tas activées par le service thp ci-dessous. Journal GC dans gc.log (/data, existe dès le premier démarrage).
       MEMORY: 8G
-      JVM_XX_OPTS: "-XX:+UseZGC -XX:+ZGenerational -XX:+AlwaysPreTouch -XX:+UseTransparentHugePages -XX:+UseStringDeduplication -Xlog:gc:file=logs/gc.log:time:filecount=3,filesize=10M"
+      JVM_XX_OPTS: "-XX:+UseZGC -XX:+ZGenerational -XX:+AlwaysPreTouch -XX:+UseTransparentHugePages -XX:+UseStringDeduplication -Xlog:gc:file=/data/gc.log:time:filecount=3,filesize=10M"
       MOTD: "Enzo + Victoria"
       DIFFICULTY: normal
       VIEW_DISTANCE: 12
