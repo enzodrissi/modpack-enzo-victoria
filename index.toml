@@ -101,8 +101,18 @@ hash = "24c6c3fe917ffbcef04e788dec3e003d0ed03433bc00f9cf4f23fe9b85636aa7"
 metafile = true
 
 [[files]]
+file = "mods/chunk-loaders.pw.toml"
+hash = "55bca8c3d631e8c7801081d6d2b00c23cb59a3c17bc7c6b03032aef421ab2c6c"
+metafile = true
+
+[[files]]
 file = "mods/chunky.pw.toml"
 hash = "68cc51e721e993a8b7a2cbaf45369933b22b07a9c82327ab14757ee10684aa81"
+metafile = true
+
+[[files]]
+file = "mods/client-crafting.pw.toml"
+hash = "55df2b553b2ff4bc51bec0f1128a9b1d1d5c0ab713f0a074d8f7e8f0fc524c6f"
 metafile = true
 
 [[files]]
@@ -131,8 +141,18 @@ hash = "b065a8cb99a887abb2c434b84e3fa84f1e62cf500b1b9f50c86a4b48e4bdcc4f"
 metafile = true
 
 [[files]]
+file = "mods/cupboard.pw.toml"
+hash = "55f8f5c6152e6c0ceb79d38ca741910665754d1ce0755234b09318923e586e43"
+metafile = true
+
+[[files]]
 file = "mods/curios.pw.toml"
 hash = "36debf7653e95a855b4fedacc19027cf2e01960fc0b6d55ef2ffbffbcb455690"
+metafile = true
+
+[[files]]
+file = "mods/cyclops-core.pw.toml"
+hash = "101e8c9eeaf11cd5f046feab607584f714fa4dcceee02ac88027ee453008c439"
 metafile = true
 
 [[files]]
@@ -158,6 +178,11 @@ metafile = true
 [[files]]
 file = "mods/eternal-starlight.pw.toml"
 hash = "6e1beac08fed14accc3edb3b5cd75220c3476d2ff27ce3b415c035623da41cda"
+metafile = true
+
+[[files]]
+file = "mods/everlastingabilities.pw.toml"
+hash = "35fa843b95e9304b1859f33b90653e294f1a18cdb91a4fbe1b93a1fe7ac5ad7a"
 metafile = true
 
 [[files]]
@@ -251,6 +276,11 @@ hash = "35779b39ddc06059ec483b33de2ecfdc3adb95c0a49e69b6701fb0024827e2f5"
 metafile = true
 
 [[files]]
+file = "mods/global-xp.pw.toml"
+hash = "2016c81795603eeaa1c9d0148559316621d4b25a20657e9c43a3a92e53f32e79"
+metafile = true
+
+[[files]]
 file = "mods/glodium.pw.toml"
 hash = "9aafdd83668c1b903caf0245b0bf2de3bb743befaa78d39e74a95c9933d624ac"
 metafile = true
@@ -281,8 +311,23 @@ hash = "db1c1e6382878b78e994dba1b9026935f8d1c5ca685c89d2437858e0a0dcab58"
 metafile = true
 
 [[files]]
+file = "mods/iron-chests.pw.toml"
+hash = "89395dd9fcb8ae67889d991207cb95ed7158571c387dde88012853c5fa9ca3fb"
+metafile = true
+
+[[files]]
+file = "mods/iron-ender-chests.pw.toml"
+hash = "0a20bc69a623bdd4a68642553da52001d2ebe668c310c007de007e64fde4e840"
+metafile = true
+
+[[files]]
 file = "mods/iron-furnaces.pw.toml"
 hash = "cd73757a8c093f490d5c7673ad17f4404622a485234b79dc43efa0e67788d66e"
+metafile = true
+
+[[files]]
+file = "mods/jade.pw.toml"
+hash = "4de3e4a1a49e332c1ad313283e0403c4273b628d634c17a9ff0c9da3d6b67f9a"
 metafile = true
 
 [[files]]
@@ -646,6 +691,21 @@ hash = "9088f93a00bc3242f0239a7115bdcbc4480e19c6120f5396fb3af27d77abda3e"
 metafile = true
 
 [[files]]
+file = "mods/tiled-cauldron.pw.toml"
+hash = "5c04eadf790cc08d1c2bbe3ec2cd5ddddba910c0a7d4a919f2a2eb974dd7c57e"
+metafile = true
+
+[[files]]
+file = "mods/tiny-mob-farm-remastered.pw.toml"
+hash = "2a36a60ca1b1bdc94849047b3442dfcc63f6e1c926fd2fa69135b64642138eb0"
+metafile = true
+
+[[files]]
+file = "mods/ui-lib.pw.toml"
+hash = "4aecbee62e1c5c4ad4cca91839f1645b92e164e6420d97b2f0088d02e5a57be2"
+metafile = true
+
+[[files]]
 file = "mods/what-are-they-up-to.pw.toml"
 hash = "9ce52d07c0c3d146a2a44f8bc187138ce7a5558a4e3ab540c86234702b6de274"
 metafile = true
@@ -656,9 +716,62 @@ hash = "539f362e9e192cf3b2813e0dfdfc51a5e6814129c6e82a9733842529beea6242"
 metafile = true
 
 [[files]]
+file = "mods/yaml-config.pw.toml"
+hash = "390fb4a5f6798752bf972089fb1da0cda9aa9b5d96a76ca48ebd608006c27e6e"
+metafile = true
+
+[[files]]
 file = "options.txt"
-hash = "2c1240055441cdcefdb8323fde15236d266bdcaea72c18471bd598cf5915abe3"
+hash = "4cd1ecbd1cfcb353f791c158925f118f5a8a090235178dfe457339813ef675a8"
 preserve = true
+
+[[files]]
+file = "profils/Appliquer profil Enzo.bat"
+hash = "9e40cfd9c9d356d0111d5ab5b954cb662db1ba6c9aea764d0a6f4ef0b6bf4fb8"
+
+[[files]]
+file = "profils/Appliquer profil Victoria.bat"
+hash = "018700fe2c3b5fac03b7c075d1b4b19c295c8db84858b32c7f92dc3caa6095ab"
+
+[[files]]
+file = "profils/appliquer-profil.ps1"
+hash = "af4b2ea873838392e604db0fd6a773075e0eff2316dd220e0ee0a6122fa7b01b"
+
+[[files]]
+file = "profils/commun/journeymap/config/6.0/journeymap.minimap.config"
+hash = "1be86e19f31d3a8feab2ba52db0a4c9fddb829a26c2f8721f849675399ae2468"
+
+[[files]]
+file = "profils/enzo/config/iris.properties"
+hash = "1dd97d0521e24f4979c9c24ead2005e6e241ec4a528c34f7f416491514b60bfd"
+
+[[files]]
+file = "profils/enzo/config/sodium-options.json"
+hash = "4056d1df6ceaf99ce534f5f61bf978bc2f6d62381deed617cf361e180e1f1ca4"
+
+[[files]]
+file = "profils/enzo/options.txt"
+hash = "aee46a7972f9b2e45769790afa96eb1faf8f5edd1c16d4a5366030bc9275cd8b"
+
+[[files]]
+file = "profils/enzo/shaderpacks/ComplementaryReimagined_r5.9.3.zip.txt"
+hash = "f38cdec1cfcbddf87045e21afc402c84ad0120b6fb7ee557165d02f1e3228d2a"
+
+[[files]]
+file = "profils/victoria/config/iris.properties"
+hash = "1dd97d0521e24f4979c9c24ead2005e6e241ec4a528c34f7f416491514b60bfd"
+
+[[files]]
+file = "profils/victoria/config/sodium-options.json"
+hash = "4056d1df6ceaf99ce534f5f61bf978bc2f6d62381deed617cf361e180e1f1ca4"
+
+[[files]]
+file = "profils/victoria/options.txt"
+hash = "9589d2461e2c6d5ac4bc95cd7302aeaba54590d660446b79e5ceeefc46421080"
+
+[[files]]
+file = "profils/victoria/shaderpacks/ComplementaryReimagined_r5.9.3.zip.txt"
+hash = "0fc1cce52f875dd141c8c1819a2d3ade918a26ef896cf510703adcd8f0ee09a2"
 
 [[files]]
 file = "servers.dat"
@@ -670,6 +783,11 @@ hash = "6fcfe06a92f84858c2c206b6722dd58f7aed4478b4f0b6a2e8e71d78e8f34f26"
 metafile = true
 
 [[files]]
+file = "shaderpacks/beyond-belief-shaders.pw.toml"
+hash = "08e18c114c8243f440dfa059185f54fd799dc317698b886dc50e3d1999b4a487"
+metafile = true
+
+[[files]]
 file = "shaderpacks/bliss-shader.pw.toml"
 hash = "8ffd81a5e0b4c3bc2daf0d86714ef56df4beb1ed87a5c41c4e9bbb94a7006bc1"
 metafile = true
@@ -677,6 +795,11 @@ metafile = true
 [[files]]
 file = "shaderpacks/bsl-shaders.pw.toml"
 hash = "31135d68099785a089f03c458fb5d1e8060a4ccec81dd3b8c36ae34ea4b9c121"
+metafile = true
+
+[[files]]
+file = "shaderpacks/chocapic13-shaders.pw.toml"
+hash = "eea73be572dcc871c83c38d1bfcb8134116e7e679b3716d294b6aefd49ad5aa4"
 metafile = true
 
 [[files]]

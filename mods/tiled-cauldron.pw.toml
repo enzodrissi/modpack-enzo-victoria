@@ -1,0 +1,13 @@
+name = "Tiled Cauldron"
+filename = "TiledCauldron-1.21.1-6.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3b7c0878260575925b63099a07993473c840fcb3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6302737
+project-id = 700713

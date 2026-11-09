@@ -1,0 +1,13 @@
+name = "EverlastingAbilities"
+filename = "everlastingabilities-1.21.1-neoforge-2.5.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2396414b7912c8053a9bcee70aba81ff7393cae6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9383742
+project-id = 248353

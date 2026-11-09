@@ -18,3 +18,5 @@ glintSpeed:0.0
 autoJump:false
 menuBackgroundBlurriness:0
 panoramaScrollSpeed:0.0
+glintStrength:0.5
+darkMojangStudiosBackground:true
