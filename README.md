@@ -1,6 +1,6 @@
 # Modpack Enzo + Victoria
 
-Minecraft 1.21.1 · NeoForge 21.1.265 · 130 mods (dépendances comprises) · géré avec [packwiz](https://packwiz.infra.link/).
+Minecraft 1.21.1 · NeoForge 21.1.265 · 144 mods (dépendances comprises) · géré avec [packwiz](https://packwiz.infra.link/).
 
 ## Installation (Victoria, une seule fois)
 
@@ -14,11 +14,32 @@ Minecraft 1.21.1 · NeoForge 21.1.265 · 130 mods (dépendances comprises) · g�
 
 **Mises à jour : rien à faire.** À chaque lancement, l'instance compare avec la liste de ce dépôt : elle ajoute, met à jour et supprime les mods toute seule.
 
-**Shaders** : Iris est inclus avec 11 shaders (Complementary Reimagined et Unbound, BSL, Sildur's Vibrant, MakeUp Ultra Fast, Bliss, Kappa, UShader, KUDA, Noble, Alpha Piscium), téléchargés depuis Modrinth et mis à jour comme les mods. En jeu : **Options** → **Vidéo** → **Packs de shaders** (ou la touche `O`). Les shaders sont désactivés par défaut.
+**Shaders** : Iris est inclus avec 11 shaders (Complementary Reimagined et Unbound, BSL, Sildur's Vibrant, MakeUp Ultra Fast, Bliss, Kappa, UShader, KUDA, Noble, Alpha Piscium), téléchargés depuis Modrinth et mis à jour comme les mods. En jeu : **Options** → **Vidéo** → **Packs de shaders** (ou la touche `O`). Les shaders sont désactivés par défaut ; un profil graphique (ci-dessous) active Complementary Reimagined.
+Chocapic13 et Beyond Belief ne sont pas inclus : leurs auteurs interdisent le téléchargement automatique.
 
 **Réglages (PC 32 Go DDR5, RTX 4080/5080, i9 13e/14e gen)** :
 - Java : 10 Go fixes (`-Xms`/`-Xmx` 10240 Mo), ZGC générationnel (`-XX:+UseZGC -XX:+ZGenerational -XX:+AlwaysPreTouch`). Prism → instance → **Modifier** → **Paramètres** → **Java** pour changer. Le Gestionnaire des tâches affiche plus de mémoire que 10 Go avec ZGC : c'est normal.
 - Jeu : voir « Réglages anti-migraine » ci-dessous. Sodium garde ses réglages par défaut, déjà adaptés à ce matériel.
+
+## Profils graphiques (Enzo, Victoria)
+
+Deux profils prêts à l'emploi, dans le dossier `profils` de l'instance :
+
+| | Enzo | Victoria |
+|---|---|---|
+| Distance de rendu / simulation | 16 / 12 | 12 / 10 |
+| VSync | Non (FPS max) | Oui (image stable) |
+| Shader | Complementary Reimagined, ombres hautes | Complementary Reimagined sans flou de mouvement, aberration, reflets d'objectif, balancement de la main ni scintillement des torches |
+| Anti-migraine | Non | Oui (voir section suivante) |
+
+**Appliquer un profil** :
+1. Fermer le jeu.
+2. Dans Prism : clic droit sur l'instance → **Dossier** → ouvrir `minecraft` → `profils`.
+3. Double-cliquer sur `Appliquer profil Enzo.bat` ou `Appliquer profil Victoria.bat`.
+
+Les touches, le volume et la langue sont gardés. Le profil remplace seulement les réglages qu'il contient.
+
+**Interface** : la mini-carte JourneyMap est carrée, en haut à droite, et tourne avec le joueur. Si la rotation gêne, en jeu : **J** → **Options** → **Mini-carte** → **Orientation** → **North**. Jade affiche le bloc ou la créature visée en haut de l'écran.
 
 ## Réglages anti-migraine (Victoria)
 
