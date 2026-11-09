@@ -7,8 +7,10 @@ Minecraft 1.21.1 · NeoForge 21.1.265 · 200 mods (dépendances comprises) · g�
 1. Installer [Prism Launcher](https://prismlauncher.org/download/) et se connecter avec son compte Microsoft.
 2. Télécharger `Enzo-Victoria-Prism.zip` depuis la [release « Instance Prism Launcher »](https://github.com/enzodrissi/modpack-enzo-victoria/releases/tag/instance).
 3. Dans Prism : **Ajouter une instance** → **Importer** → choisir le zip → **OK**.
-4. Lancer l'instance. Au premier lancement, une fenêtre télécharge les mods (environ 560 Mo), puis le jeu démarre.
+4. Lancer l'instance. Au premier lancement, une fenêtre télécharge les mods (environ 800 Mo), puis le jeu démarre (un peu plus d'une minute).
    Si Prism demande de télécharger Java 21, accepter.
+5. Fermer le jeu, puis appliquer son profil graphique : clic droit sur l'instance → **Dossier** → ouvrir `minecraft` → `profils` → double-cliquer sur `Appliquer profil Victoria.bat`. Il règle tout l'anti-migraine (voir plus bas).
+6. Relancer, puis **Multijoueur** → **Enzo + Victoria** → **Rejoindre le serveur**.
 
 **Serveur déjà enregistré** : le pack installe `servers.dat` avec « Enzo + Victoria » (`chords-simulate.tun.ply.gg`) dans **Multijoueur**. Ce fichier est réécrit quand le pack le change : un serveur ajouté à la main peut disparaître.
 
@@ -45,6 +47,24 @@ Les touches, le volume et la langue sont gardés. Le profil remplace seulement l
 
 **Interface** : la mini-carte JourneyMap est carrée, en haut à droite, et tourne avec le joueur. Si la rotation gêne, en jeu : **J** → **Options** → **Mini-carte** → **Orientation** → **North**. Jade affiche le bloc ou la créature visée en haut de l'écran.
 
+## Pratique au quotidien
+
+| Pour | Comment |
+|---|---|
+| Voir une recette ou à quoi sert un objet | JEI (liste à droite de l'inventaire) : survoler l'objet, `R` = recette, `U` = utilisations |
+| Savoir où trouver un minerai, ce que lâche un monstre | JEI, onglets ajoutés par Just Enough Resources |
+| Comprendre un enchantement | Survoler le livre ou l'objet enchanté : la description s'affiche (Enchantment Descriptions) |
+| Déplacer vite des objets | Mouse Tweaks : clic maintenu et glisser sur les cases, ou molette sur un objet |
+| Jeter un objet | Case poubelle à côté de l'inventaire (TrashSlot) |
+| Faire tourner, équilibrer ou vider la grille de craft | Petits boutons à côté de la grille (Crafting Tweaks) |
+| Choisir entre deux recettes identiques | Bouton au-dessus du résultat (Polymorph) |
+| Voir sa faim et sa saturation | Barre de faim (AppleSkin) |
+| Voir le contenu d'une shulker | La survoler (ShulkerBoxTooltip) |
+| Porter une armure pour son apparence | Bouton dans l'inventaire (Cosmetic Armor Reworked) |
+| Trouver ou changer une touche | **Options** → **Commandes** : barre de recherche et touches en conflit (Controlling) |
+
+Aussi : durabilité en chiffres sur les outils, objets ramassés listés à l'écran, têtes des joueurs dans le chat, feuilles qui tombent vite après avoir coupé un arbre.
+
 ## Réglages anti-migraine (Victoria)
 
 Le pack installe un `options.txt` pensé pour éviter les maux de tête. Il est appliqué **à la première installation seulement**, puis n'est plus jamais écrasé (chacun garde ses propres réglages).
@@ -66,12 +86,7 @@ Ce qui déclenche les migraines, ce n'est pas le nombre de FPS, mais les **mouve
 | Saut automatique | Non | Pas de petits sauts imprévus de la caméra |
 | Distance de rendu | 12 | |
 
-**Appliquer vite si l'instance est déjà installée** :
-1. Fermer le jeu.
-2. Dans Prism : clic droit sur l'instance → **Dossier** → ouvrir `minecraft` → supprimer `options.txt`.
-3. Relancer : le fichier anti-migraine est réinstallé tout seul.
-
-(Ça remet aussi les touches et le volume par défaut.) Sinon, tout se règle à la main en jeu : **Options** → **Accessibilité** et **Options** → **Vidéo**.
+**Si un réglage a été changé par erreur** : fermer le jeu et relancer `Appliquer profil Victoria.bat` (voir « Profils graphiques »). Tout l'anti-migraine revient ; les touches, le volume et la langue sont gardés. Sinon, tout se règle à la main en jeu : **Options** → **Accessibilité** et **Options** → **Vidéo**.
 
 **Shaders** : si un shader donne mal à la tête, le désactiver (touche `O`) ou, dans ses réglages, couper **Motion Blur**, **Depth of Field** et **Chromatic Aberration**.
 
