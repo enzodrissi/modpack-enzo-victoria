@@ -1,6 +1,6 @@
 # Modpack Enzo + Victoria
 
-Minecraft 1.21.1 · NeoForge 21.1.265 · 144 mods (dépendances comprises) · géré avec [packwiz](https://packwiz.infra.link/).
+Minecraft 1.21.1 · NeoForge 21.1.265 · 165 mods (dépendances comprises) · géré avec [packwiz](https://packwiz.infra.link/).
 
 ## Installation (Victoria, une seule fois)
 
@@ -15,7 +15,9 @@ Minecraft 1.21.1 · NeoForge 21.1.265 · 144 mods (dépendances comprises) · g�
 **Mises à jour : rien à faire.** À chaque lancement, l'instance compare avec la liste de ce dépôt : elle ajoute, met à jour et supprime les mods toute seule.
 
 **Shaders** : Iris est inclus avec 11 shaders (Complementary Reimagined et Unbound, BSL, Sildur's Vibrant, MakeUp Ultra Fast, Bliss, Kappa, UShader, KUDA, Noble, Alpha Piscium), téléchargés depuis Modrinth et mis à jour comme les mods. En jeu : **Options** → **Vidéo** → **Packs de shaders** (ou la touche `O`). Les shaders sont désactivés par défaut ; un profil graphique (ci-dessous) active Complementary Reimagined.
-Chocapic13 et Beyond Belief ne sont pas inclus : leurs auteurs interdisent le téléchargement automatique.
+Chocapic13 et Beyond Belief ne sont pas inclus : leurs auteurs interdisent le téléchargement automatique. Pour les avoir, télécharger `Chocapic13_V9.1_Extreme_beta_5.zip` ([lien](https://www.curseforge.com/minecraft/shaders/chocapic13-shaders/files/3221720)) et `BeyondBeliefLegacy_V1.2.4.zip` ([lien](https://www.curseforge.com/minecraft/shaders/beyond-belief-shaders/files/5981099)), puis les copier dans le dossier `minecraft/shaderpacks` de l'instance.
+
+**Enchantements jusqu'au niveau XV** : l'Enchanting Infuser propose les niveaux I à XV (Quick Charge et Lure restent à V, au-delà ils cassent l'arbalète et la pêche). Il faut 15 bibliothèques autour de l'Infuser pour le niveau XV ; le prix en niveaux monte avec le niveau choisi. L'enclume est plafonnée à XV aussi.
 
 **Réglages (PC 32 Go DDR5, RTX 4080/5080, i9 13e/14e gen)** :
 - Java : 10 Go fixes (`-Xms`/`-Xmx` 10240 Mo), ZGC générationnel (`-XX:+UseZGC -XX:+ZGenerational -XX:+AlwaysPreTouch`). Prism → instance → **Modifier** → **Paramètres** → **Java** pour changer. Le Gestionnaire des tâches affiche plus de mémoire que 10 Go avec ZGC : c'est normal.
