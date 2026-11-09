@@ -153,6 +153,38 @@ file = "kubejs/data/minecraft/enchantment/wind_burst.json"
 hash = "6d91b003abbfc451464ae06e2b4937631b7c99a0251f555c27e4dbed07073586"
 
 [[files]]
+file = "kubejs/data/regions_unexplored/worldgen/placed_feature/patch/ash_vents_inferno.json"
+hash = "5b233c601237d279bf51ee4f86e521dd7aa6167d3a6c9f9578de51944e84f3e1"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/placed_feature/patch/cave_bioshrooms.json"
+hash = "af085a7f131df8c6b9793439d8108d8608066fe1acca4d189a4785e75bf324c9"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/placed_feature/patch/dropleaf.json"
+hash = "e0c7744b046b213198c0a2523221b17d9fd0996f88789464d1993555fcba3b5f"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/placed_feature/patch/prismarite_cluster.json"
+hash = "7e664e84da3781666cb01f99d59c42b359d7156eac4696c598980560bc8d6557"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/placed_feature/patch/redstone_bud.json"
+hash = "b27c14f4a9bb8d7aebafb112ad2ffb74867e429a0a0a39888943fb39f6321da5"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/placed_feature/patch/redstone_bulb.json"
+hash = "0cac1a0b0ff9080f69b95c66674bfadbf719c44801131d317dd7a99d74ec3d66"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/placed_feature/special/lava_fall.json"
+hash = "6b77aa6d6d6979e4858418b7fd61f06c9e9f92225704c9a1d4bd754a6e7468c7"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/placed_feature/special/overworld_lava_delta.json"
+hash = "f3b403c26d5e96cd20fd51f459bfc64bd11ed817c7a59bd1c10e7f3aa70e3bba"
+
+[[files]]
 file = "mods/EvolvedMekanismExtras-1.21.1-1.2.2-em13fix.jar"
 hash = "dee1b049752b34fb4bba477c9804d542d88c895873fe8a0a1623b6e066a9c0eb"
 

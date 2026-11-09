@@ -3,7 +3,8 @@
 # Works around a server-thread livelock in ChunkMap.processUnloads (1.21.1 modpack):
 # if Chunky makes < MIN_CHUNKS in WINDOW minutes -> pause, save-all, restart, Chunky resumes.
 # Watches the running Chunky task and exits when it is done (start it first: chunky world/radius/start).
-# ponytail: restart-based workaround, find the culprit mod if stalls also hit normal play.
+# Cause: lithostitched:in_structure (Regions Unexplored placed features) calls Level.getChunk from a worldgen worker.
+# Fixed by kubejs/data/regions_unexplored overrides; this watchdog stays as a safety net.
 export MSYS_NO_PATHCONV=1
 C=enzo-victoria-mc
 DIR="$(cd "$(dirname "$0")" && pwd)"

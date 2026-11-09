@@ -124,7 +124,7 @@ Fichier : [`server/docker-compose.yml`](server/docker-compose.yml) (image `itzg/
 - Logs : `docker logs -f enzo-victoria-mc`. Lag : `docker exec enzo-victoria-mc rcon-cli neoforge tps` (`spark tps` ne répond pas par RCON).
 - Arrêter proprement : `docker compose stop` (le monde est sauvegardé).
 
-**Optimisations** : 8 Go fixes avec ZGC générationnel en huge pages (pauses de quelques millisecondes, journal dans `gc.log`), monde sur un volume Docker (disque Linux, bien plus rapide qu'un dossier Windows), écriture des chunks asynchrone, pas de crash watchdog, vol autorisé (jetpacks), prégénération Chunky. Lithium, ModernFix, FerriteCore, AllTheLeaks et Let Me Despawn (les monstres qui ramassent un objet finissent par disparaître) sont dans le pack.
+**Optimisations** : 8 Go fixes avec ZGC générationnel en huge pages (pauses de quelques millisecondes, journal dans `gc.log`), monde sur un volume Docker (disque Linux, bien plus rapide qu'un dossier Windows), écriture des chunks asynchrone, pas de crash watchdog, vol autorisé (jetpacks), prégénération Chunky (les 8 décorations de Regions Unexplored qui figeaient la génération sont réécrites dans `kubejs/data/regions_unexplored`). Lithium, ModernFix, FerriteCore, AllTheLeaks et Let Me Despawn (les monstres qui ramassent un objet finissent par disparaître) sont dans le pack.
 
 **Jouer depuis l'extérieur** : tunnel sortant [playit.gg](https://playit.gg) (service `playit`, activé par `server/.env`). L'adresse publique appartient à la clé, pas au PC : le PC qui démarre prend l'adresse, rien à changer sur la box. Un seul serveur allumé à la fois. Chaque PC a son propre monde (volume `mc-data`).
 
