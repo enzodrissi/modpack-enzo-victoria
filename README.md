@@ -10,6 +10,8 @@ Minecraft 1.21.1 · NeoForge 21.1.265 · 130 mods (dépendances comprises) · g�
 4. Lancer l'instance. Au premier lancement, une fenêtre télécharge les mods (environ 560 Mo), puis le jeu démarre.
    Si Prism demande de télécharger Java 21, accepter.
 
+**Serveur déjà enregistré** : le pack installe `servers.dat` avec « Enzo + Victoria » (`chords-simulate.tun.ply.gg`) dans **Multijoueur**. Ce fichier est réécrit quand le pack le change : un serveur ajouté à la main peut disparaître.
+
 **Mises à jour : rien à faire.** À chaque lancement, l'instance compare avec la liste de ce dépôt : elle ajoute, met à jour et supprime les mods toute seule.
 
 **Shaders** : Iris est inclus avec 11 shaders (Complementary Reimagined et Unbound, BSL, Sildur's Vibrant, MakeUp Ultra Fast, Bliss, Kappa, UShader, KUDA, Noble, Alpha Piscium), téléchargés depuis Modrinth et mis à jour comme les mods. En jeu : **Options** → **Vidéo** → **Packs de shaders** (ou la touche `O`). Les shaders sont désactivés par défaut.

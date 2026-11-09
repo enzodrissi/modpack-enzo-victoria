@@ -661,6 +661,10 @@ hash = "2c1240055441cdcefdb8323fde15236d266bdcaea72c18471bd598cf5915abe3"
 preserve = true
 
 [[files]]
+file = "servers.dat"
+hash = "598e7bcfddaf9b176dca111805c73bce5627d977da28edccbbd12a1e151832a3"
+
+[[files]]
 file = "shaderpacks/alpha-piscium.pw.toml"
 hash = "6fcfe06a92f84858c2c206b6722dd58f7aed4478b4f0b6a2e8e71d78e8f34f26"
 metafile = true
