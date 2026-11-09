@@ -1,0 +1,38 @@
+#=== OverflowEnchantments ===
+#
+#maxLevelMode: How to calculate the maximum enchantment level
+#  absolute — hard cap via maxLevel
+#  relative — vanilla max + maxLevelAddition
+#maxLevel: Hard cap when mode=absolute (1-255)
+#maxLevelAddition: Extra levels above vanilla max when mode=relative (1-255)
+#allowIncompatibleEnchantments: Allow Sharpness+Smite on same item
+#maxAnvilCost: Max XP cost. 0 = unlimited
+#removePriorWorkPenalty: Reset repair cost, no accumulation
+maxLevelMode = "absolute"
+#Hard cap when mode=absolute
+# Default: 10
+# Range: 1 ~ 255
+maxLevel = 15
+#Extra levels above vanilla max when mode=relative
+# Default: 3
+# Range: 1 ~ 255
+maxLevelAddition = 3
+#Allow incompatible enchants together (Sharpness+Smite)
+allowIncompatibleEnchantments = true
+#Max XP cost. 0 = no limit
+# Default: 0
+# Range: 0 ~ 1000
+maxAnvilCost = 0
+#Reset repair cost on result, no cost accumulation
+removePriorWorkPenalty = true
+#Allow extracting enchantments from items into books in anvil
+disenchantEnabled = true
+#Base XP cost per enchantment level when disenchanting
+# Default: 5
+# Range: 1 ~ 100
+disenchantCostPerLevel = 5
+#Per-enchantment max level overrides.
+#Format: "modid:enchantment=level"
+#Example: ["minecraft:fortune=100", "minecraft:sharpness=50"]
+#This overrides both absolute and relative modes for that enchantment.
+enchantmentOverrides = ["minecraft:quick_charge=5", "minecraft:lure=5"]
