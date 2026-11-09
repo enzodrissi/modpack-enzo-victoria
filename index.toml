@@ -401,6 +401,11 @@ hash = "086e5173f9d4dd76196a67e6604b5787b5f17312a6c3db49b1651fe2d972fe16"
 metafile = true
 
 [[files]]
+file = "mods/mekanism-engineering.pw.toml"
+hash = "8938aa498274e800bf4fc0352a8c19754b02e7ddf2d6e1b8d7ed7b9ee3114f5c"
+metafile = true
+
+[[files]]
 file = "mods/mekanism-extras.pw.toml"
 hash = "efbfbadc52ed321056cb43a7a70a521ed9657640e6132c63ed81741a4feb3f91"
 metafile = true
@@ -424,10 +429,6 @@ metafile = true
 file = "mods/mekanism.pw.toml"
 hash = "290b13afab94146d1159d821b73c8c98f5299b4df75fd28e826f9fd409e9bb40"
 metafile = true
-
-[[files]]
-file = "mods/mekanismengineering-1.3.jar"
-hash = "4ba946831228dfc8e9c333f2560fbf99beb9ff4f5fb8e35f2e4db000a41569f5"
 
 [[files]]
 file = "mods/mezzconfig.pw.toml"

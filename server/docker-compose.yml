@@ -39,5 +39,24 @@ services:
     tty: true
     stdin_open: true
 
+  # Tunnel sortant playit.gg : adresse publique fixe, aucune redirection de port sur la box.
+  # Même clé sur chaque PC ; un seul serveur allumé à la fois.
+  # Activé par server/.env (hors Git) contenant :
+  #   COMPOSE_PROFILES=tunnel
+  #   SECRET_KEY=<clé secrète de l'agent playit>
+  # Sans .env, ce service est ignoré.
+  playit:
+    image: ghcr.io/playit-cloud/playit-agent:0.15
+    container_name: enzo-victoria-playit
+    profiles: [tunnel]
+    # Partage le réseau du conteneur mc : la cible du tunnel est 127.0.0.1:25565.
+    network_mode: "service:mc"
+    env_file:
+      - path: .env
+        required: false
+    depends_on:
+      - mc
+    restart: unless-stopped
+
 volumes:
   mc-data:

@@ -3,3 +3,4 @@ MODS_MANIFEST.csv
 PROMPT_CLAUDE_TESTS.md
 README.md
 server/
+.github/

@@ -1,2 +1,3 @@
 *.jar
 !mods/*.jar
+server/.env

@@ -96,9 +96,9 @@ git add -A && git commit -m "..." && git push
 
 Victoria reçoit les changements à son prochain lancement.
 
-**Mekanism: Engineering** : le pack contient le jar 1.3 candidat (`mods/mekanismengineering-1.3.jar`, copié de l’instance ATLauncher `MekEng13Cand1211`). Pour une nouvelle version :
-- publiée sur CurseForge → supprimer le jar, puis `packwiz curseforge add https://www.curseforge.com/minecraft/mc-mods/mekanism-engineering` ;
-- nouveau jar local → remplacer le jar dans `mods/`, puis `packwiz refresh`.
+**Mekanism: Engineering** : pris sur [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mekanism-engineering) (`mods/mekanism-engineering.pw.toml`). Le workflow GitHub `Suivre Mekanism Engineering` vérifie toutes les 3 h s'il y a un nouveau fichier 1.21.1 NeoForge et pousse la mise à jour tout seul. Le serveur la prend à son prochain redémarrage, Victoria à son prochain lancement. Pour forcer : onglet Actions du dépôt, « Run workflow ».
+
+**Serveur sur plusieurs PC** : le tunnel playit.gg donne une adresse publique fixe, sans redirection de port. Sur chaque PC : cloner le dépôt, créer `server/.env` (hors Git) avec `COMPOSE_PROFILES=tunnel` et `SECRET_KEY=<clé playit>`, puis `docker compose up -d` dans `server/`. Même clé partout, un seul serveur allumé à la fois. Chaque PC a son propre monde (volume Docker `mc-data`).
 
 **Mekanism Covers** : retiré du pack (abandonné, son mixin Sodium 0.6 faisait planter le jeu avec Sodium 0.8).
 
