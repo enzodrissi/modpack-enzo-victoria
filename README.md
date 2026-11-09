@@ -1,6 +1,6 @@
 # Modpack Enzo + Victoria
 
-Minecraft 1.21.1 · NeoForge 21.1.265 · 165 mods (dépendances comprises) · géré avec [packwiz](https://packwiz.infra.link/).
+Minecraft 1.21.1 · NeoForge 21.1.265 · 164 mods (dépendances comprises) · géré avec [packwiz](https://packwiz.infra.link/).
 
 ## Installation (Victoria, une seule fois)
 
