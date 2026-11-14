@@ -825,7 +825,7 @@ metafile = true
 
 [[files]]
 file = "mods/mekanism-engineering.pw.toml"
-hash = "8938aa498274e800bf4fc0352a8c19754b02e7ddf2d6e1b8d7ed7b9ee3114f5c"
+hash = "b4009543e390b6f53aabd8a1eb6ecd05db75cb12a832723c783071584624dc70"
 metafile = true
 
 [[files]]

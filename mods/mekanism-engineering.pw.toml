@@ -1,13 +1,13 @@
 name = "Mekanism: Engineering"
-filename = "mekanismengineering-1.2.1-mc1.21.1.jar"
+filename = "mekanismengineering-1.3-mc1.21.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "007779d02c8caba06fd6fe90c49536bcebc489ef"
+hash = "708149223242907a9609d073bdea37320d959b6a"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9429772
+file-id = 9600743
 project-id = 1706106
