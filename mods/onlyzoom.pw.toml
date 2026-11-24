@@ -1,0 +1,13 @@
+name = "OnlyZoom"
+filename = "onlyzoom-1.2-1.20.4-1.21.1-neoforge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/HQCOpZfK/versions/TbL9Enl5/onlyzoom-1.2-1.20.4-1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "e0f5acb30640cdde5e8e2b96d3d61dda63b0131cc98339a54fbe316857d53ae3cebb58d2e3d21d93ac3c01de0091e3915daa305d6530dc5c51d2b1a87d9d3bfa"
+
+[update]
+[update.modrinth]
+mod-id = "HQCOpZfK"
+version = "TbL9Enl5"
